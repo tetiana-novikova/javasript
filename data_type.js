@@ -48,10 +48,10 @@ console.log('%cThe quote '+'%c\'There is no exercise better for the heart than r
 console.log('%c\"Love is not patronizing and charity isn\'t about pity, it is about love. Charity and love are the same -- with charity you give love, so don\'t just give money but reach out your hand instead.\"', 'color:#0A3069')
 
 //Check if typeof '10' is exactly equal to 10. If not make it exactly equal.
-console.log(typeof('10')==typeof(10))
+console.log("Is typeof \'10\' equal to typeof 10: "+ (typeof('10') === typeof(10)))
 let num = '10'
 let numInt = Number(num)
-console.log(typeof(numInt)==typeof(10))
+console.log("Is typeof \'10\' equal to typeof 10 after changes: " + (typeof(numInt) === typeof(10)))
 
 //Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
 console.log(parseFloat('9.8')==10)
@@ -87,11 +87,7 @@ let b = 2
 let c = 3
 let d = 4
 let e = 5
-console.log(`${a} `.repeat(5))
-console.log(`${b} ${a} ${b} ${b**2} ${b**3}`)
-console.log(`${c} ${a} ${c} ${c**2} ${c**3}`)
-console.log(`${d} ${a} ${d} ${d**2} ${d**3}`)
-console.log(`${e} ${a} ${e} ${e**2} ${e**3}`)
+console.log("1" + "\t1".repeat(4) + "\n2\t1\t2\t4\t8\n3\t1\t3\t9\t27\n4\t1\t4\t16\t64\n5\t1\t5\t25\t125");
 
 //Use substr to slice out the phrase because because because from the following sentence:'You cannot end a sentence with because because because is a conjunction'
 let string4 = 'You cannot end a sentence with because because because is a conjunction'
